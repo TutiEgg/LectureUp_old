@@ -1,0 +1,32 @@
+    /* 
+    Die HFU legt in ihrem Corporate Design die folgenden Hausfarben fest:
+        rgb(131, 184, 26, 1); APFELGRÜN
+        rgb(0, 132, 77, 1); OPALGRÜN
+        rgb(218, 220, 220, 1); HELLGRAU
+        Schwarz, Weiß und Grautöne;
+
+    Zudem folgende Farben für die Typographie:
+        rgb(112, 113, 115, 1); DUNKELGRAU
+        rgb(0, 0, 0, 1); SCHWARZ
+
+    Bitte halten Sie sich für eine einheitliche Repräsentation 
+    der Hochschule an die festgelegten Hausfarben.
+    */
+
+:root {
+    --headerbackground: rgb(0, 132, 77, 1);
+    --footerbackground: white;
+    --background: white;
+
+    --typography: rgb(112, 113, 115, 1);
+    --headertypography: white;
+    --footertypography: black;
+    --submenutypography: black;
+
+    --hover-headertypography: white;
+    --hover-submenutypography: rgb(218, 220, 220, 1);;
+    --footerShadowPercent: 60%;
+
+    /* NUR FÜR TOP NAVIGATION LAYOUT RELEVANT */
+    --submenubackground: white;
+  }
